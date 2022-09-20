@@ -8,33 +8,85 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://use.fontawesome.com/04ecd3ed7f.js"></script>
+<script src="https://kit.fontawesome.com/0c52814ec4.js" crossorigin="anonymous"></script>
     <title>Shubhra Portfolio</title> <!-- Added descriptive title-->
 </head>
 <body>
     <!--Changed div with header class with Header element-->
     <header>
-        <h1>Shubhra Salunke</h1>
+        
+        <!-- <h1>Shubhra Salunke</h1> -->
         <nav>
+
+            
             <!--Changed div with nav element-->
             <ul>
-                <li>
-                    <a href="#AboutMe" >About me</a>
-                    <!--Added alt attribute for link-->
-                </li>
+               
                 <li>
                     <a href="#projects" >My Projects</a>
                 </li>
                 <li>
                     <a href="#Contact Me" >Contact Me</a>
                 </li>
+                
+                 <li>
+                    
+                        <a href="https://www.linkedin.com/in/shubhra-salunke-13580734/" target="_blank"><i style="color: white;"
+                                class="fab fa-linkedin"></i>Linkdin</a>
+                                </li>
+                                <li>
+                        <a href="https://github.com/shubhra8" target="_blank"><i class="fa-brands fa-github"></i>Github</a>
+                    
+                    </li>
+                
             </ul>
         </nav>
-    </header>
-
+        
+        <section id="AboutMe">
+            <!-- <h2>
+                <b>About Me</b>
+            </h2> -->
+            <section>
+                <a href="https://github.com/shubhra8?tab=repositories">
+                    <img src="./Assets/images/me.jpg" />
+                </a>
+            </section>
+            
+            
+            <section class="Me">
+        
+                <!--<h1 style="font-size: large;color: blue;">Hello</h1>-->
+                <p style="font-size: 20px;">
+                    <h4 style="font-size: 20px;">Hi, my name is </h4>
+                    <h2 id="headname"> Shubhra Salunke.</h2><h4>I am a Web Developer From Austin.</h4>
+                    <br>
+                    I am bachelor in Computer
+                    Science.I have 5 years of experience working in lT industry.I am a certified Udacity frontend nano degree professional. Currently pursuing full stack web development bootcamp from
+                    Georgia tech.<br>
+                    
+                
+                   <br>
+                   <br>
+                        <div class="formbutton">
+                            <form action="./assets/Resume_Shubhra Salunke_v2.doc" method="get">
+                        
+                                <button type="submit">Download CV <i class="fa fa-download"></i></button>
+                        
+                            </form>
+                        </div>
+                   
+                
+                  
+              
+                </p>
+        
+            </section>
+        </section>
+    
+</header>
  
   
-    <section id="AboutMe"> 
+    <!-- <section id="AboutMe"> 
         <h2>
             <b>About Me</b>
         </h2>
@@ -45,8 +97,8 @@
                 </section>
         <section class= "Me">
          
-            <!--<h1 style="font-size: large;color: blue;">Hello</h1>-->
-           <p>
+            <h1 style="font-size: large;color: blue;">Hello</h1>-->
+           <!-- <p>
                 My Name is Shubhra Salunke.I live in Austin,Texas.I am a web developer.I am bachelor in Computer Science.<br>
                 I have worked in software consultancy in the past and looking for full time positions in Austin area.<br>
                 Please click on the link to download Cv.
@@ -56,53 +108,132 @@
             </p>
             
         </section>
-        </section> 
+        </section>  --> 
         <br>
         <br>
+       <section id="skills">
+        <h2>
+        <b>Skill Set</b>
+        </h2>
+        <p>Here are a few technologies I’ve been working with recently:</p>
+        <div id="list">
+        <ol id="order1">
+            <li>  HTML</li>
+            <li>CSS</li>
+            <li> Javascript</li>   
+        </ol>
+        <ol id="order2">
+            <li> Node</li>
+            <li> Express</li>
+            <li> SQL</li>
+        </ol>
+        </div>
+       </section>
        
-        <section id="projects">
             <h2>
-                <b>My Projects</b>
+                <b>My Recent Work</b>
                 <br>
             </h2>
-        <section class="project1img">
-            <a href="https://github.com/shubhra8?tab=repositories">
+            <br>
+            <br>
+            <section id="projects">
+        <!-- <section class="project1img">
+            <a href="https://shubhra8.github.io/Weather-Dashboard/">
             <img  src="./Assets/images/weather-forecast.jpg">
             </a>
-            </section>
+            </section> -->
+         
+        <div class="card" style="width: 30rem;">
+            <img class="card-img-top" style="width: 30rem;" src="./Assets/images/Invoice Manager IMg.jpg" walt="Card image cap">
+            <h3><b>Invoice Manager</b></h3>
+            <div class="card-body">
+                <p class="card-text">This app lets small buisness to create and maintain invoice for there clients and it also email invoices in pdf format to there clients.<a id = "link" href="https://invoice-manager-pro.herokuapp.com/"><i class="fa-solid fa-arrow-up-right-from-square"></a></i></p>
+            </div>
+            </div>
+            <div class="card" style="width: 30rem;">
+                <img class="card-img-top" style="width: 30rem;" src="./Assets/images/nlp.jpg" walt="Card image cap">
+                <h3><b>NLP Processing</b></h3>
+                <div class="card-body">
+                    <p class="card-text">Its a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is
+                    the ability of an application to understand the human language, written or oral.<a href="https://www.facebook.com/"><i id = "link" class="fa-solid fa-arrow-up-right-from-square"></a></i></p>
+                </div>
+                    
+    
+                    
+            </div>
         <br>
         <br>
         <br>
         <br>
         <br>
-        <section class="project2img">
+        <!-- <section class="project2img">
             <a href="https://github.com/shubhra8?tab=repositories">
             <img  src="./Assets/images/nlp.jpg">
             </a>
-        </section>
-        <section class="project3img">
-            <a href="https://github.com/shubhra8?tab=repositories">
-            <img  src="./Assets/images/blog.jpg">
+        </section> -->
+        
+        <!-- <section class="project3img">
+            <a href="https://shubhra8.github.io/Meal-Finder/">
+            <img  src="./Assets/images/RecipeApp.jpg">
             </a>
+        </section> -->
+        <div class="card" style="width: 30rem;">
+            <img class="card-img-top" style="width: 30rem;" src="./Assets/images/RecipeApp.jpg" walt="Card image cap">
+            <h3><b>Meal/Calorie App</b></h3>
+            <div class="card-body">
+                <p class="card-text">This app will help users find a recipe to cook based on meal type,calorie count and allergy prefrences.<a href="https://shubhra8.github.io/Meal-Finder/"><i id = "link" class="fa-solid fa-arrow-up-right-from-square"></a></i></p>
+            </div>
+            
+            
+            </p>    
+        </div>
+        <div class="card" style="width: 30rem;">
+            <img class="card-img-top" style="width:100%" src="./Assets/images/weather-forecast.jpg" walt="Card image cap">
+            <!-- <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%"> -->
+            <h3><b>Weather-Dashboard</b></h3>
+            <div class="card-body">
+                <p class="card-text">Weather dashboard allow user to search for city of there choice for checking current weather condition.It also provide
+                user next 5 days forecasted weather condition data.It provide the temperature, the humidity, the wind speed, and the UV
+                index. <a  href="https://shubhra8.github.io/Weather-Dashboard/"><i id = "link" class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            </div>
+        
+            
+        </div>
         </section>
-        <section class="project4img">
-            <a href="https://github.com/shubhra8?tab=repositories">
+        <!-- <section class="project4img">
+            <a href="https://invoice-manager-pro.herokuapp.com/">
                 <img src="./Assets/images/Invoice Manager IMg.png">
             </a>
         </section>
-        </section>
+        </section> -->
+      
         <br>
-        <br>
-        <footer id="Contact Me">    
+        <!-- <footer id="Contact Me">    
             <h2><u>Contact Me</u></h2>
             <p><i class="fa fa-envelope" aria-hidden="true"></i><b> Mail @</b>- Shubrasalunkecse@gmail.com</p>
-            <p><i class="fa fa-phone-square" aria-hidden="true"></i><b> Call @</b> 000-111-0003</p>
+            <p><i class="fa fa-phone-square" aria-hidden="true"></i><b> Call @</b> 860-987-7197</p>
             <ul class="footer-socials">
                 <li><a href="https://www.facebook.com/"><i class="fa x  x fa-facebook-f"></i><span> Facebook</span></a></li>
                 <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i><span> Twitter</span></a></li>
                 <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i> linkdin</a></li>
             <br>
         </h2>
+        </footer> -->
+
+        <footer id="footer">
+            <div id="Contact Me" class="container-fluid">
+                <h2><u>Contact Me</u></h2>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i><b> Mail @</b>- Shubrasalunkecse@gmail.com</p>
+                <p><i class="fa fa-phone-square" aria-hidden="true"></i><b> Call @</b> 860-987-7197</p>
+                <!-- social media icons -->
+                <!-- <div class="social-icons mt-4">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+                </div> -->
+            </div>
         </footer>
 
     </body>

@@ -23,4 +23,4 @@ Resize the page or view the site on various screens and devices user will be pre
 
 ### Github URl
 
-    The web site is published at https://shubhra8.github.io/Module2-Challenge/
+    The web site is published at  https://shubhra8.github.io/Shubhra-Profile/

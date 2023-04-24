@@ -16,11 +16,11 @@
     <header>
         
         <!-- <h1>Shubhra Salunke</h1> -->
-        <nav>
+        <!-- <nav id="navbar"> -->
 
             
             <!--Changed div with nav element-->
-            <ul>
+            <!-- <ul>
                
                 <li>
                     <a href="#projects" >My Projects</a>
@@ -29,9 +29,9 @@
                     <a href="#Contact Me" >Contact Me</a>
                 </li>
                 
-                 <li>
+                 <li> -->
                     
-                     <a href="https://www.linkedin.com/in/shubhra-salunke-13580734/" target="_blank"><i style="color: white;"
+                     <!-- <a href="https://www.linkedin.com/in/shubhra-salunke-13580734/" target="_blank"><i style="color: white;"
                                 class="fab fa-linkedin"></i>Linkdin</a>
                                 </li>
                                 <li>
@@ -40,7 +40,22 @@
                     </li>
                 
             </ul>
-        </nav>
+        </nav> -->
+        <div class="container">
+            <div class="navbar">
+                <div class="header">
+                    <ul class="menu">
+                        <li><a href="#projects">My Projects</a></li>
+                        
+                        <li><a href="#Contact Me">Contact Me</a></li>
+                        <li><a href="https://www.linkedin.com/in/shubhra-salunke-13580734/" target="_blank"><i style="color: white;"
+                                class="fab fa-linkedin"></i>Linkdin</a></li>
+                        <li><a href="https://github.com/shubhra8" target="_blank"><i class="fa-brands fa-github"></i>Github</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
         
         <section id="AboutMe">
             <!-- <h2>
@@ -56,22 +71,18 @@
             <section class="Me">
         
                 <!--<h1 style="font-size: large;color: blue;">Hello</h1>-->
-                <p style="font-size: 20px;">
-                    <h4 style="font-size: 20px;">Hi, my name is </h4>
-                    <h2 id="headname"> Shubhra Salunke.</h2><h4>I am a Web Developer From Austin.</h4>
-                    <br>
+                <!-- <p style="font-size: 20px;">
+                    <h4 style="font-size: 20px;">Hi, my name is </h4> -->
+                    <h2 id="headname"> Shubhra Salunke</h2>
+                  
+                    <p>
                 Front-end web developer with 5 years of work experience in the Technology industry. Recently earned a certificate in full stack web development from Georgia Tech University, with newly developed skills in the full stack web development domain.
+                 Dedicated and quick learner who brings insight and clarity to all projects that I work on.I am result oriented and enjoy working collaboratively  in a team environment.I am looking for opportunities to restart my career in the technology space by utilizing my newly acquired skill set in the full stack web development domain.
+                   </p>   
                 <br>
-                I also got Certification from Udacity for their Front-End Web Development Nanodegree Program. 
-                Dedicated and quick learner who brings insight and clarity to all projects that I work on.
-                I am result oriented and enjoy working collaboratively  in a team environment.I am looking for opportunities to restart my career in the technology space by utilizing my newly acquired skill set in the full stack web development domain.
-                   <br>
                     
-                
-                   <br>
-                   <br>
                         <div class="formbutton">
-                            <form action="./Assets/Shubhra Salunke.docx" method="get">
+                            <form action="./Assets/Shubhra Salunke.pdf" method="get">
                         
                                 <button type="submit">Download CV <i class="fa fa-download"></i></button>
                         
@@ -88,36 +99,15 @@
     
 </header>
  
-  
-    <!-- <section id="AboutMe"> 
-        <h2>
-            <b>About Me</b>
-        </h2>
-        <section>
-            <a href="https://github.com/shubhra8?tab=repositories">
-                    <img src="./Assets/images/me.jpg"/>
-                    </a>
-                </section>
-        <section class= "Me">
-         
-            <h1 style="font-size: large;color: blue;">Hello</h1>-->
-           <!-- <p>
-                My Name is Shubhra Salunke.I live in Austin,Texas.I am a web developer.I am bachelor in Computer Science.<br>
-                I have worked in software consultancy in the past and looking for full time positions in Austin area.<br>
-                Please click on the link to download Cv.
-                <form>
-                <button>Download Cv</button>
-            </form>
-            </p>
-            
-        </section>
-        </section>  --> 
-        <br>
-        <br>
        <section id="skills">
-        <h2>
-        <b>Skill Set</b>
-        </h2>
+        <div class="container1">
+            <h2 class="title">
+                <span class="title-word title-word-1">Skill</span>
+                <span class="title-word title-word-2">set</span>
+                <!--     <span class="title-word title-word-3">my</span>
+            <span class="title-word title-word-4">text</span> -->
+            </h2>
+        </div>
         <p>Here are a few technologies I’ve been working with recently:</p>
         <div id="list">
         <ol id="order1">
@@ -140,20 +130,25 @@
         </div>
        </section>
        
-            <h2>
-                <b>My Recent Work</b>
-                <br>
-            </h2>
-            <br>
-            <br>
-            <section id="projects">
+            
+            <section id="projects1">
         <!-- <section class="project1img">
             <a href="https://shubhra8.github.io/Weather-Dashboard/">
             <img  src="./.Assets/images/weather-forecast.jpg">
             </a>
             </section> -->
-
-
+<div class="container1">
+    <h2 class="title">
+        <span class="title-word title-word-1">My</span>
+        <span class="title-word title-word-2">Recent</span>
+        <span class="title-word title-word-2">Work</span>
+        <!--     <span class="title-word title-word-3">my</span>
+            <span class="title-word title-word-4">text</span> -->
+    </h2>
+</div>
+<br>
+<br>
+<section id="projects">
             <div class="card" style="width: 30rem;">
                 <img class="card-img-top" style="width: 30rem;" src="./Assets/images/agboard.jpg" walt="Card image cap">
                 <h3><b>Agile Board</b></h3>
@@ -193,22 +188,32 @@
                 <img id="programming-skills" src="./Assets/images/skill/mongodb.png" alt="Html">
             </div>
             </div>
-            <div class="card" style="width: 30rem;">
-                <img class="card-img-top" style="width: 30rem;" src="./Assets/images/nlp.jpg" walt="Card image cap">
-                <h3><b>NLP Processing</b></h3>
-                <div class="card-body">
-                    <p class="card-text">Its a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is
-                    the ability of an application to understand the human language, written or oral.<a href="https://www.facebook.com/"></p><button><i id = "link" class="fa-solid fa-arrow-up-right-from-square"></a></i>Github</button>
-                <h4>Technologies</h4>
-                <img id="programming-skills" src="./Assets/images/skill/html-5.png" alt="Html">
-                <img id="programming-skills" src="./Assets/images/skill/css.png" alt="Html">
-                <img id="programming-skills" src="./Assets/images/skill/JavaScript_Logo.png" alt="Html">
-                <img id="programming-skills" src="./Assets/images/skill/webapi.png" alt="Html">
-                <img id="programming-skills" src="./Assets/images/skill/nodejs.png" alt="Html">
-                <img id="programming-skills" src="./Assets/images/skill/Express-JS.jpg" alt="Html">
-            </div>
+            
                     
+    <div class="card" style="width: 30rem;">
+        <img class="card-img-top" style="width:100%" src="./Assets/images/weather-forecast.jpg" walt="Card image cap">
+        <!-- <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%"> -->
+        <h3><b>Weather-Dashboard</b></h3>
+        <div class="card-body">
+            <p class="card-text">Weather dashboard allow user to search for city of there choice for checking current
+                weather condition.It also provide
+                user next 5 days forecasted weather condition data.It provide the temperature, the humidity, the wind speed,
+                and the UV
+                index.</p><button> <a href="https://shubhra8.github.io/Weather-Dashboard/"><i id="link"
+                        class="fa-solid fa-arrow-up-right-from-square"></i></a>Demo</button>
+            <button><a id="link" href="https://github.com/shubhra8/Weather-Dashboard" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>Github</button>
+            <h4>Technologies</h4>
+            <img id="programming-skills" src="./Assets/images/skill/html-5.png" alt="Html">
+            <img id="programming-skills" src="./Assets/images/skill/css.png" alt="Html">
+            <img id="programming-skills" src="./Assets/images/skill/JavaScript_Logo.png" alt="Html">
+            <img id="programming-skills" src="./Assets/images/skill/webapi.png" alt="Html">
+            <img id="programming-skills" src="./Assets/images/skill/nodejs.png" alt="Html">
+            <img id="programming-skills" src="./Assets/images/skill/Express-JS.jpg" alt="Html">
+        </div>
     
+    
+    </div>
                     
             </div>
         <br>
@@ -243,50 +248,37 @@
             
             </p>    
         </div>
+    
         <div class="card" style="width: 30rem;">
-            <img class="card-img-top" style="width:100%" src="./Assets/images/weather-forecast.jpg" walt="Card image cap">
-            <!-- <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%"> -->
-            <h3><b>Weather-Dashboard</b></h3>
+            <img class="card-img-top" style="width: 30rem;" src="./Assets/images/nlp.jpg" walt="Card image cap">
+            <h3><b>NLP Processing</b></h3>
             <div class="card-body">
-                <p class="card-text">Weather dashboard allow user to search for city of there choice for checking current weather condition.It also provide
-                user next 5 days forecasted weather condition data.It provide the temperature, the humidity, the wind speed, and the UV
-                index.</p><button> <a  href="https://shubhra8.github.io/Weather-Dashboard/"><i id = "link" class="fa-solid fa-arrow-up-right-from-square"></i></a>Demo</button>
-            <button><a id="link" href="https://github.com/shubhra8/Weather-Dashboard" target="_blank"><i class="fa-brands fa-github"></i></a>Github</button>
-                        <h4>Technologies</h4>
-                        <img id="programming-skills" src="./Assets/images/skill/html-5.png" alt="Html">
-                        <img id="programming-skills" src="./Assets/images/skill/css.png" alt="Html">
-                        <img id="programming-skills" src="./Assets/images/skill/JavaScript_Logo.png" alt="Html">
-                        <img id="programming-skills" src="./Assets/images/skill/webapi.png" alt="Html">
-                            <img id="programming-skills" src="./Assets/images/skill/nodejs.png" alt="Html">
-                            <img id="programming-skills" src="./Assets/images/skill/Express-JS.jpg" alt="Html">
-                    </div>
-        
-            
+                <p class="card-text">Its a web tool that allows users to run Natural Language Processing (NLP) on articles or
+                    blogs found on other websites. NLP is
+                    the ability of an application to understand the human language, written or oral.<a
+                        href="https://www.facebook.com/"></p><button><i id="link"
+                        class="fa-solid fa-arrow-up-right-from-square"></a></i>Github</button>
+                <h4>Technologies</h4>
+                <img id="programming-skills" src="./Assets/images/skill/html-5.png" alt="Html">
+                <img id="programming-skills" src="./Assets/images/skill/css.png" alt="Html">
+                <img id="programming-skills" src="./Assets/images/skill/JavaScript_Logo.png" alt="Html">
+                <img id="programming-skills" src="./Assets/images/skill/webapi.png" alt="Html">
+                <img id="programming-skills" src="./Assets/images/skill/nodejs.png" alt="Html">
+                <img id="programming-skills" src="./Assets/images/skill/Express-JS.jpg" alt="Html">
+            </div>
+        </section>
+        </section>
+    <div id="Contact Me" class="container-fluid">
+        <div class="container1">
+            <h2 class="title">
+                <span class="title-word title-word-1">Contact</span>
+                <span class="title-word title-word-2">Me</span>
+                <!--     <span class="title-word title-word-3">my</span>
+                                <span class="title-word title-word-4">text</span> -->
+            </h2>
         </div>
-        </section>
-        <!-- <section class="project4img">
-            <a href="https://invoice-manager-pro.herokuapp.com/">
-                <img src="./Assets/images/Invoice Manager IMg.png">
-            </a>
-        </section>
-        </section> -->
-      
-        <br>
-        <!-- <footer id="Contact Me">    
-            <h2><u>Contact Me</u></h2>
-            <p><i class="fa fa-envelope" aria-hidden="true"></i><b> Mail @</b>- Shubrasalunkecse@gmail.com</p>
-            <p><i class="fa fa-phone-square" aria-hidden="true"></i><b> Call @</b> 860-987-7197</p>
-            <ul class="footer-socials">
-                <li><a href="https://www.facebook.com/"><i class="fa x  x fa-facebook-f"></i><span> Facebook</span></a></li>
-                <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i><span> Twitter</span></a></li>
-                <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i> linkdin</a></li>
-            <br>
-        </h2>
-        </footer> -->
-
         <footer id="footer">
-            <div id="Contact Me" class="container-fluid">
-                <h2><u>Contact Me</u></h2>
+          
                 <p><i class="fa fa-envelope" aria-hidden="true"></i><b> Mail @</b>- Shubrasalunkecse@gmail.com</p>
                 <p><i class="fa fa-phone-square" aria-hidden="true"></i><b> Call @</b> 860-987-7197</p>
                 <!-- social media icons -->

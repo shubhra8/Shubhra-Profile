@@ -1,24 +1,78 @@
 body {
     background-color: white;
     margin: 0px;
-    
     height: 100%;
     width: 100%;
      background-size: cover;  
 }
 
 header {
-    padding: 20px;
+    /* padding: 20px; */
     font-family: 'Abril Fatface', cursive;
     color: #ffffff;
     display: flex;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
-    background-image: url("../images/img2.jpg");
     width:auto;
-    height: 674px;
+    height: 500px;
 }
 
+.navbar{
+    width: 100%;
+        height: 80px;
+        display: flex;
+        /* align-items: center; */
+        background-color: #38597c;
+        /* background-color: #8e54ff; */
+}
+.header{
+    width: 100%;
+        height: 60px;
+}
+ .menu
+ {
+     height: 100%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     list-style: none;
+     padding: 0 100px;
+ }
+.menu li{
+    
+            display: block;
+            height: 100%;
+            font-size: 20px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px #8e54e9;
+            transition: border 0.3s ease;
+            text-align: center;
+            padding: 0 10px;
+            border: 2px solid transparent;
+            border-bottom: 2px solid #fff;
+            padding-right: 30px;
+            margin-right: 0px;
+        
+}
+/* .menu li {
+    border: 2px solid transparent;
+    border-bottom: 2px solid #fff;
+    margin-right: 0px;
+    padding-right: 30px;
+    transition: border 0.3s ease;
+} */
+
+.menu li:hover {
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid transparent;
+}
 header h1 {
     display: inline-block;
     font-size: 38px;
@@ -67,14 +121,14 @@ li::marker {
 /* 0x2022 is unicode for a bullet */
 
 /*Added CSS for nav elememt */
-header nav {
+/* header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
      font-family: 'Abril Fatface', cursive;
     font-size: 25px;
     margin-left: auto;
-}
+} */
 
 li{
     font-family: 'Abril Fatface', cursive;
@@ -88,9 +142,9 @@ li{
     border-color: #7e9ab9;
     
 }
-header nav ul {
+/* header nav ul {
     list-style-type: none;
-}
+} */
 
 #programming-skills {
     border-radius: 50%;
@@ -99,12 +153,13 @@ header nav ul {
     margin-right: 5px;
 }
 
-header nav ul li {
+/* header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
+} */
 a{
     color: white;
+    text-decoration: none;
 }
 #git{
     display: none;
@@ -122,15 +177,18 @@ h3{
 }
 
 a:hover {
-color:#fff;
+color:rgb(52, 107, 184);
 }
 #AboutMe
 {
     display: flex;
     margin-bottom:100px;
+    height:420px;
+    /* margin-top:20px; */
     flex-direction: row;
     color: white;
-    
+    background-image: url("../images/img2.jpg");
+    background-size: 100% 100%;
     
 }
 #AboutMe img {
@@ -138,16 +196,18 @@ color:#fff;
         width: 250px;
         height: 250px;
         margin-left: 50px;
+        margin-top: 40px;
     
 }
  .Me {
-margin-left: 100px;
-flex-shrink: 1;
+margin-left: 30px;
+    flex-shrink: 1;
+    margin-right: 30px;
 
         }
 div{
 font-size: 20px;
-margin-left: 50px;
+/* margin-left: 50px; */
 }
 #link{
     color: #000000;
@@ -159,6 +219,11 @@ font-family: 'Abril Fatface', cursive;
      text-decoration: none; 
     margin-left: 0px; 
     color: white;
+    padding-left: 70px;
+        padding-right: 50px;
+}
+#headname:hover{
+    color:#38597c;
 }
 h2 {
     font-size: 30px;
@@ -183,6 +248,8 @@ text-align: center;
 flex-wrap: wrap;
  font-family: 'Abril Fatface', cursive;
 font-size: 20px;
+padding-left: 50px;
+padding-right: 50px;
 }
 
 
@@ -290,6 +357,11 @@ button{
     border-radius: 0%;
     background-color: #bcbfc3;
     font-weight: bold;
+    
+}
+.formbutton{
+    padding-left: 70px;
+    padding-right: 50px;
 }
 .fa-facebook:hover,
 .fa-instagram:hover,
@@ -305,8 +377,82 @@ button{
 
 /* footer styling */
 #footer {
-    background-color: #526376;
+    /* background-color: #526376; */
     text-align: center;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container1 {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    /* height: 100vh */
+}
+
+.title {
+    font-family: 'Abril Fatface', cursive;
+    /* font-weight: 800;
+    font-size: 8.5vw; */
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1253px){
